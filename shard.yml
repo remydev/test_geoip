@@ -1,0 +1,13 @@
+name: tracking
+version: 0.1.0
+
+
+dependencies:
+    geoip2:
+        git: https://github.com/delef/geoip2.cr
+        branch: master
+
+targets:
+  trackingd:
+    main: src/main.cr
+
